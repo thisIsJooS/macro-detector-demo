@@ -6,3 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.querySelector('#macro-detect-target').addEventListener('click', function () {
+    document.querySelector('.note').textContent = '예약 완료';
+
+})
